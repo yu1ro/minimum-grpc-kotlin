@@ -14,10 +14,10 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "me.yu1ro.minimumgrpckt.helloworld";
+option java_package = "me.yu1ro.minimumgrpckt";
 option java_outer_classname = "HelloWorldProto";
 
-package me.yu1ro.taco.helloworld;
+package me.yu1ro.minimumgrpckt;
 
 // The greeting service definition.
 service Greeter {
