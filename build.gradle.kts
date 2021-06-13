@@ -21,6 +21,7 @@ repositories {
 dependencies {
     implementation("io.grpc:grpc-kotlin-stub:$grpcKotlinVer")
     implementation("io.grpc:grpc-protobuf:$grpcProtobufVer")
+    runtimeOnly("io.grpc:grpc-netty:$grpcProtobufVer")
 }
 
 protobuf {
